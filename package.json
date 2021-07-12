@@ -1,0 +1,17 @@
+{
+  "name": "AppBadReviewToJira",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node -r dotenv-override-true/config app.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "moment-timezone": "^0.5.27",
+    "dotenv-override-true": "^6.2.0",
+    "create-jira-ticket-api": "^1.0.1",
+    "jira": "^0.9.2",
+    "jira-client": "^6.7.1",
+    "jira-connector": "^3.1.0"
+  }
+}
